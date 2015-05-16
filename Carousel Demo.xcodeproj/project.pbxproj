@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF18A7021B03237900B678F3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18A7011B03237900B678F3 /* SettingsViewController.swift */; };
+		EF18A7041B03251100B678F3 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18A7031B03251100B678F3 /* ConversationsViewController.swift */; };
+		EF18A7061B032B1400B678F3 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18A7051B032B1400B678F3 /* CreateViewController.swift */; };
+		EF3EF5361B05311E00EAD320 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3EF5351B05311E00EAD320 /* ImageViewController.swift */; };
+		EF3EF5381B054C0800EAD320 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3EF5371B054C0800EAD320 /* TermsViewController.swift */; };
+		EF3EF53A1B0599B700EAD320 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3EF5391B0599B700EAD320 /* GetStartedViewController.swift */; };
+		EF3EF53C1B05B79400EAD320 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3EF53B1B05B79400EAD320 /* PhotoViewController.swift */; };
 		EF770FB51B01B97E002262B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FB41B01B97E002262B8 /* AppDelegate.swift */; };
 		EF770FB71B01B97E002262B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FB61B01B97E002262B8 /* ViewController.swift */; };
 		EF770FBA1B01B97E002262B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF770FB81B01B97E002262B8 /* Main.storyboard */; };
 		EF770FBC1B01B97E002262B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF770FBB1B01B97E002262B8 /* Images.xcassets */; };
 		EF770FBF1B01B97E002262B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF770FBD1B01B97E002262B8 /* LaunchScreen.xib */; };
 		EF770FCB1B01B97E002262B8 /* Carousel_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FCA1B01B97E002262B8 /* Carousel_DemoTests.swift */; };
+		EF770FD51B01BA99002262B8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FD41B01BA99002262B8 /* Common.swift */; };
+		EF770FD71B01BCCA002262B8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FD61B01BCCA002262B8 /* IntroViewController.swift */; };
+		EF770FD91B01C5DD002262B8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FD81B01C5DD002262B8 /* SignInViewController.swift */; };
+		EF770FDB1B03031B002262B8 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF770FDA1B03031B002262B8 /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF18A7011B03237900B678F3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EF18A7031B03251100B678F3 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		EF18A7051B032B1400B678F3 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		EF3EF5351B05311E00EAD320 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EF3EF5371B054C0800EAD320 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		EF3EF5391B0599B700EAD320 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		EF3EF53B1B05B79400EAD320 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		EF770FAF1B01B97E002262B8 /* Carousel Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carousel Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF770FB31B01B97E002262B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF770FB41B01B97E002262B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,10 @@
 		EF770FC41B01B97E002262B8 /* Carousel DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carousel DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF770FC91B01B97E002262B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF770FCA1B01B97E002262B8 /* Carousel_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_DemoTests.swift; sourceTree = "<group>"; };
+		EF770FD41B01BA99002262B8 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		EF770FD61B01BCCA002262B8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		EF770FD81B01C5DD002262B8 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EF770FDA1B03031B002262B8 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +99,20 @@
 		EF770FB11B01B97E002262B8 /* Carousel Demo */ = {
 			isa = PBXGroup;
 			children = (
+				EF770FD41B01BA99002262B8 /* Common.swift */,
 				EF770FB41B01B97E002262B8 /* AppDelegate.swift */,
 				EF770FB61B01B97E002262B8 /* ViewController.swift */,
 				EF770FB81B01B97E002262B8 /* Main.storyboard */,
+				EF3EF53B1B05B79400EAD320 /* PhotoViewController.swift */,
+				EF3EF5391B0599B700EAD320 /* GetStartedViewController.swift */,
+				EF3EF5371B054C0800EAD320 /* TermsViewController.swift */,
+				EF3EF5351B05311E00EAD320 /* ImageViewController.swift */,
+				EF18A7011B03237900B678F3 /* SettingsViewController.swift */,
+				EF18A7031B03251100B678F3 /* ConversationsViewController.swift */,
+				EF18A7051B032B1400B678F3 /* CreateViewController.swift */,
+				EF770FDA1B03031B002262B8 /* TutorialViewController.swift */,
+				EF770FD81B01C5DD002262B8 /* SignInViewController.swift */,
+				EF770FD61B01BCCA002262B8 /* IntroViewController.swift */,
 				EF770FBB1B01B97E002262B8 /* Images.xcassets */,
 				EF770FBD1B01B97E002262B8 /* LaunchScreen.xib */,
 				EF770FB21B01B97E002262B8 /* Supporting Files */,
@@ -161,6 +194,7 @@
 				TargetAttributes = {
 					EF770FAE1B01B97E002262B8 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FZ56K7G9S9;
 					};
 					EF770FC31B01B97E002262B8 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -212,8 +246,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3EF5381B054C0800EAD320 /* TermsViewController.swift in Sources */,
 				EF770FB71B01B97E002262B8 /* ViewController.swift in Sources */,
+				EF770FD51B01BA99002262B8 /* Common.swift in Sources */,
+				EF3EF53A1B0599B700EAD320 /* GetStartedViewController.swift in Sources */,
+				EF3EF5361B05311E00EAD320 /* ImageViewController.swift in Sources */,
+				EF18A7061B032B1400B678F3 /* CreateViewController.swift in Sources */,
+				EF18A7021B03237900B678F3 /* SettingsViewController.swift in Sources */,
+				EF18A7041B03251100B678F3 /* ConversationsViewController.swift in Sources */,
 				EF770FB51B01B97E002262B8 /* AppDelegate.swift in Sources */,
+				EF770FD91B01C5DD002262B8 /* SignInViewController.swift in Sources */,
+				EF770FDB1B03031B002262B8 /* TutorialViewController.swift in Sources */,
+				EF770FD71B01BCCA002262B8 /* IntroViewController.swift in Sources */,
+				EF3EF53C1B05B79400EAD320 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +385,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Carousel Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Carousel Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -409,6 +462,7 @@
 				EF770FD01B01B97E002262B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF770FD11B01B97E002262B8 /* Build configuration list for PBXNativeTarget "Carousel DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +471,7 @@
 				EF770FD31B01B97E002262B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
