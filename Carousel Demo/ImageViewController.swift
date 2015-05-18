@@ -32,6 +32,22 @@ class ImageViewController: UIViewController {
         
         
 
+        
+        
+        
+
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        var defaults = NSUserDefaults.standardUserDefaults()
+        var stringValue = defaults.objectForKey("pressed_photo") as! String
+        
+        println(stringValue)
+
+        if stringValue == "shared"
+        {
+            self.bannerView.alpha = 0
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,7 +10,6 @@ import UIKit
 
 class GetStartedViewController: UIViewController {
     @IBOutlet weak var viewCheck: UIButton!
-
     @IBOutlet weak var shareCheck: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,12 +17,13 @@ class GetStartedViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         var defaults = NSUserDefaults.standardUserDefaults()
-       
         var stringValue = defaults.objectForKey("pressed_photo") as! String
+        println(stringValue)
 
-        viewCheck.selected = false
-        shareCheck.selected = false
-        if stringValue == "aziz"
+
+        //viewCheck.selected = false
+        //shareCheck.selected = false
+        /*if stringValue == "aziz"
         {
         viewCheck.selected = true
         }
@@ -31,7 +31,25 @@ class GetStartedViewController: UIViewController {
         {
         viewCheck.selected = true
         shareCheck.selected = true
+        }*/
+        
+        if stringValue == "aziz"     {
+            
+        viewCheck.selected = true
+
         }
+            
+        
+        else if stringValue == "shared"
+        {
+        viewCheck.selected = true
+
+        shareCheck.selected = true
+        }
+        
+        
+        
+        
        
     }
 

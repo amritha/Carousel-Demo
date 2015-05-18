@@ -12,7 +12,7 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     
-
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.delegate = self
@@ -26,10 +26,21 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
         
         // Do any additional setup after loading the view.
         
+        /*var defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject("aziz", forKey: "pressed_photo")
+        defaults.synchronize()*/
+       
+        
+        
+        //didPressPhoto?.setObject("aziz", forKey: "pressed_photo")
+        
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
         var defaults = NSUserDefaults.standardUserDefaults()
         defaults.setObject("aziz", forKey: "pressed_photo")
         defaults.synchronize()
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,10 +58,10 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
 
     
     @IBAction func onShare(sender: AnyObject) {
-        var defaults = NSUserDefaults.standardUserDefaults()
-        defaults.setObject("share", forKey: "pressed_photo")
-        defaults.synchronize()
         
+        var defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject("shared", forKey: "pressed_photo")
+        defaults.synchronize()
         
         var alertView = UIAlertView(title: "Sharing...", message: nil, delegate: self, cancelButtonTitle: nil)
         alertView.show()
